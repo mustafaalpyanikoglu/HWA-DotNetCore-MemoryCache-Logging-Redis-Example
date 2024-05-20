@@ -323,3 +323,5 @@ C:\Users\malpy\Desktop\Net-Core-Performance-Kit\WebAPI\obj\Debug\net8.0\refint\W
 C:\Users\malpy\Desktop\Net-Core-Performance-Kit\WebAPI\obj\Debug\net8.0\WebAPI.pdb
 C:\Users\malpy\Desktop\Net-Core-Performance-Kit\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 C:\Users\malpy\Desktop\Net-Core-Performance-Kit\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+C:\Users\malpy\Desktop\Net-Core-Performance-Kit\WebAPI\bin\Debug\net8.0\Serilog.Sinks.MSSqlServer.dll
+C:\Users\malpy\Desktop\Net-Core-Performance-Kit\WebAPI\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll

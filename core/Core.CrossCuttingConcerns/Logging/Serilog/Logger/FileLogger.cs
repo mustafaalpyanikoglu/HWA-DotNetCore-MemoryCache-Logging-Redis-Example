@@ -1,31 +1,40 @@
-﻿using Core.CrossCuttingConcerns.Logging.Serilog.ConfigurationModels;
+﻿﻿using Core.CrossCuttingConcerns.Logging.Serilog.ConfigurationModels;
 using Core.CrossCuttingConcerns.Logging.Serilog.Messages;
 using Microsoft.Extensions.Configuration;
 using Serilog;
 
-namespace Core.CrossCuttingConcerns.Logging.Serilog.Logger;
-
-public class FileLogger : LoggerServiceBase
+namespace Core.CrossCuttingConcerns.Logging.Serilog.Logger
 {
-    private IConfiguration _configuration;
-
-    public FileLogger(IConfiguration configuration)
+    /// <summary>
+    /// Represents a logger that writes log entries to a file using Serilog.
+    /// </summary>
+    public class FileLogger : LoggerServiceBase
     {
-        _configuration = configuration;
+        private readonly IConfiguration _configuration;
 
-        FileLogConfiguration logConfig = configuration.GetSection("SeriLogConfigurations:FileLogConfiguration")
-                                                      .Get<FileLogConfiguration>() ??
-                                         throw new Exception(SerilogMessages.NullOptionsMessage);
+        /// <summary>
+        /// Initializes a new instance of the FileLogger class with the specified configuration.
+        /// </summary>
+        /// <param name="configuration">The IConfiguration object used to read Serilog configurations.</param>
+        public FileLogger(IConfiguration configuration)
+        {
+            _configuration = configuration;
 
-        string logFilePath = string.Format("{0}{1}", Directory.GetCurrentDirectory() + logConfig.FolderPath, ".txt");
+            FileLogConfiguration logConfig =
+                configuration.GetSection("SeriLogConfigurations:FileLogConfiguration").Get<FileLogConfiguration>()
+                ?? throw new Exception(SerilogMessages.NullOptionsMessage);
 
-        Logger = new LoggerConfiguration()
-                 .WriteTo.File(
-                     logFilePath,
-                     rollingInterval: RollingInterval.Day,
-                     retainedFileCountLimit: null,
-                     fileSizeLimitBytes: 5000000,
-                     outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level}] {Message}{NewLine}{Exception}")
-                 .CreateLogger();
+            string logFilePath = string.Format(format: "{0}{1}", arg0: Directory.GetCurrentDirectory() + logConfig.FolderPath, arg1: ".txt");
+
+            Logger = new LoggerConfiguration().WriteTo
+                .File(
+                    logFilePath,
+                    rollingInterval: RollingInterval.Day,
+                    retainedFileCountLimit: null,
+                    fileSizeLimitBytes: 5000000,
+                    outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level}] {Message}{NewLine}{Exception}"
+                )
+                .CreateLogger();
+        }
     }
 }

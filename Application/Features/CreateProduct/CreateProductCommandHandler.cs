@@ -9,6 +9,7 @@ public class CreateProductCommandHandler(IProductRepository repository) : IReque
     private readonly IProductRepository _repository = repository;
     public async Task Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
+        throw new Exception();
         var mappedProduct = request.ToMap();
         await _repository.AddAsync(mappedProduct);
     }

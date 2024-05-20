@@ -25,7 +25,8 @@ public static class ApplicationServiceRegistration
         services.AddScoped<IProductService,ProductManager>();
         services.AddScoped<ICategoryService,CategoryManager>();
         
-        services.AddSingleton<LoggerServiceBase, FileLogger>();
+        //services.AddSingleton<LoggerServiceBase, FileLogger>();
+        services.AddSingleton<LoggerServiceBase, MsSqlLogger>();
 
         return services;
 
