@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yE2//tWxnTn5gQkwzht2uuScgWyCDTDjHkSS+d4lAKe571SEjET8dHes2FOk2vQ+BvZ4GhNS8vMechhCrsPvjw==",
+  "dgSpecHash": "nJB5SaHqdQcGpSlaB+ssafay2v+T9xSMAMW1aUjw7bdZTAN94WZyPmzr0nFfQ1O5r0MjMvKdZ4RKXBU4kM5tUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\malpy\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",

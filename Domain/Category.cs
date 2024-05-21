@@ -1,13 +1,29 @@
-﻿namespace Domain;
+﻿using System.ComponentModel.DataAnnotations;
+using Domain.Constants;
 
-public class Category(string name) : Entity
+namespace Domain;
+
+public class Category : Entity
 {
-    public string Name { get; private set; } = name;
+    public string Name { get; set; }
 
-    public List<Product>? Products { get; set; }
+    public virtual ICollection<Product> Products { get; set; }
+
+    public Category()
+    {
+        Products = new HashSet<Product>();
+    }
+
+    public Category(int id, string name)
+    {
+        Id = id;
+        Name = name;
+    }
 
     public void Update(string name)
     {
+        if (string.IsNullOrEmpty(name)) throw new ValidationException(ErrorMessages.CategoryNameCannotBeEmptyOrNull);
+        
         Name = name;
     } 
 }

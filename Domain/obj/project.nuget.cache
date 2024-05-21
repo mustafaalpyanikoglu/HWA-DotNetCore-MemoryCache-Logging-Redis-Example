@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lJphIZfGNSX1op37Zu4GtYoE+JyuT7cGjxo6PsLkKBXA1XOg/wvmEnz8qEDA1woXS0v4cHaa2Zc3IYYK6RJ6nw==",
+  "dgSpecHash": "eaRxZleBAyxScSr1N4/hCmJmpWdJ9gxjZsSPTQd1qew+mzP1YiSbnjBGvEs/Ku/k+Je7NbH8TGzJcwiusDqcXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Core.Application
-build_property.ProjectDir = C:\Users\malpy\Desktop\HWA\Net-Core-Performance-Kit\core\Core.Application\
+build_property.ProjectDir = C:\Users\malpy\Desktop\HWA-NetCore-MemoryCache-And-Logging\core\Core.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

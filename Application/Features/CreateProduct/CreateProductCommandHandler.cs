@@ -1,5 +1,5 @@
-using Application.Extensions;
 using Application.Services.Repositories;
+using AutoMapper;
 using Core.Application.Caching;
 using Domain;
 using MediatR;
@@ -14,13 +14,15 @@ public class CreateProductCommand : IRequest, ICacheRemoverRequest
     public string? CacheKey { get; set; }
     public string[] CacheGroupKey => ["GetProducts"];
     
-    public class CreateProductCommandHandler(IRepository<Product> repository) 
+    public class CreateProductCommandHandler(IRepository<Product> repository, IMapper mapper) 
         : IRequestHandler<CreateProductCommand>
     {
         private readonly IRepository<Product> _repository = repository;
+        private readonly IMapper _mapper = mapper;
+        
         public async Task Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            var mappedProduct = request.ToMap();
+            var mappedProduct = _mapper.Map<Product>(request);
             await _repository.AddAsync(mappedProduct);
         }
     }
