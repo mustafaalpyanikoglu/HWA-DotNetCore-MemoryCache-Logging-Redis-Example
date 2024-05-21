@@ -1,4 +1,4 @@
-# HWA-NetCore-Logger-Cache-Kit
+# HWA-NetCore-MemoryCache-And-Logging
 
 <img src="https://www.aihr.com/wp-content/uploads/performance-management-cover.png" width="1000" height="553" alt="">
 
