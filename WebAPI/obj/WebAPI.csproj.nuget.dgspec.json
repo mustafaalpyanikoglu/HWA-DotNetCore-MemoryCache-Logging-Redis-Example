@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,11 +27,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.Application\\Core.Application.csproj"
               },
-              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj"
               }
             }
           }
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
@@ -79,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.Application\\Core.Application.csproj",
         "projectName": "Core.Application",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.Application\\Core.Application.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -102,8 +106,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
               }
             }
           }
@@ -159,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
         "projectName": "Core.CrossCuttingConcerns",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.CrossCuttingConcerns\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -243,14 +247,14 @@
         }
       }
     },
-    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -297,14 +301,14 @@
         }
       }
     },
-    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -320,11 +324,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Application\\Application.csproj"
               },
-              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj"
               }
             }
           }
@@ -374,14 +378,14 @@
         }
       }
     },
-    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -397,11 +401,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Application\\Application.csproj"
               },
-              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Persistence\\Persistence.csproj"
               }
             }
           }

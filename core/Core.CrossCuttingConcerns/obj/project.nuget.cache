@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tYRt0tWGioA9yVf8/MD/i/HuINJRcOetudK8w3frI+V562yMSvTBXU399z5EqliNtTAFbx6pahtRyi0ezneiSw==",
+  "dgSpecHash": "RsIbnQmgIth892U7DoJK3ffMWyGsQKTUbXkB5R1w4gwYJA7z4wpYuEhmjfL2MOc21Jyqg2USIrFfKIJZUwiNFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+  "projectFilePath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malpy\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
