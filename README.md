@@ -1,5 +1,7 @@
 # HWA-NetCore-Logger-Cache-Kit
 
+<img src="https://www.aihr.com/wp-content/uploads/performance-management-cover.png" width="1000" height="553" alt="">
+
 Bu proje, 'log', 'cache' ve 'middleware' yapılarının CQRS tasarım deseninde nasıl kullanılabileceğini göstermektedir.
 
 ## Kullanım
