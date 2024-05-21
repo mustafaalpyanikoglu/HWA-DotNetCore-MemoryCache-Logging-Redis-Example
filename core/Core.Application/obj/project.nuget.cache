@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iuSAGv63RW6Pv12p+ngLOXGD2FOTIQa60WhNW3fmmAXoSY2CYuv10qQexN6ONn6ZLQsajgmzq5oAjfQyi5WfUQ==",
+  "dgSpecHash": "nIFKkDCpo0Zk1xfVPeQlBs398BX86KTHQetTyOgzodGW5cImzOpmBp5paptfz8yqhig4BXiY3uqJf4ntmF4i3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj",
+  "projectFilePath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malpy\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

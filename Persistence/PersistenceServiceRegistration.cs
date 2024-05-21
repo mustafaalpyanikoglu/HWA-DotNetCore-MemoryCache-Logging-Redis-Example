@@ -16,8 +16,7 @@ public static class PersistenceServiceRegistration
             opt.UseSqlServer(configuration.GetConnectionString("DBConnectionString"));
         });
         
-        services.AddScoped<IProductRepository, ProductRepository>();
-        services.AddScoped<ICategoryRepository, CategoryRepository>();
+        services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 
         return services;

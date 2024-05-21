@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj": {}
+    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Application\\Application.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Application\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,14 +27,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj"
               },
-              "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Persistence\\Core.Persistence.csproj"
-              },
-              "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Domain\\Domain.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj"
               }
             }
           }
@@ -52,6 +49,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -78,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj",
         "projectName": "Core.Application",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\Core.Application.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Application\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -101,8 +102,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
               }
             }
           }
@@ -158,14 +159,14 @@
         }
       }
     },
-    "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
         "projectName": "Core.CrossCuttingConcerns",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.CrossCuttingConcerns\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -242,14 +243,14 @@
         }
       }
     },
-    "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Persistence\\Core.Persistence.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Persistence\\Core.Persistence.csproj",
-        "projectName": "Core.Persistence",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Persistence\\Core.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -276,16 +277,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
-            "System.Linq.Dynamic.Core": {
-              "target": "Package",
-              "version": "[1.3.14, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -306,72 +297,14 @@
         }
       }
     },
-    "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Domain\\Domain.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Persistence\\Core.Persistence.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -387,11 +320,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Application\\Application.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Application\\Application.csproj"
               },
-              "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Domain\\Domain.csproj"
+              "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj"
               }
             }
           }

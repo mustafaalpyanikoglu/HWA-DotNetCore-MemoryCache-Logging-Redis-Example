@@ -1,6 +1,4 @@
-﻿using Core.Persistence.Repositories;
-
-namespace Domain;
+﻿namespace Domain;
 
 public class Category(string name) : Entity
 {

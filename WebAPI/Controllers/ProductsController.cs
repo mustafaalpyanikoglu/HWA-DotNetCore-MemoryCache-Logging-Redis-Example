@@ -1,6 +1,5 @@
 ﻿using Application.Features.CreateProduct;
 using Application.Features.GetListProduct;
-using Core.Application.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,9 +19,9 @@ public class ProductsController(IMediator mediator) : Controller
     }
     
     [HttpGet]
-    public async Task<IActionResult> GetProducts([FromQuery]PageRequest pageRequest)
+    public async Task<IActionResult> GetProducts()
     {
-        var result = await _mediator.Send(new GetListProductQuery() { PageRequest = pageRequest });
+        var result = await _mediator.Send(new GetListProductQuery() { });
         return Ok(result);
     }
     

@@ -23,7 +23,8 @@ namespace Core.CrossCuttingConcerns.Logging.Serilog.Logger
             FileLogConfiguration logConfig =
                 configuration.GetSection("SeriLogConfigurations:FileLogConfiguration").Get<FileLogConfiguration>()
                 ?? throw new Exception(SerilogMessages.NullOptionsMessage);
-
+            
+            // Creates the path to the log file and sets it according to the current working directory of the directory
             string logFilePath = string.Format(format: "{0}{1}", arg0: Directory.GetCurrentDirectory() + logConfig.FolderPath, arg1: ".txt");
 
             Logger = new LoggerConfiguration().WriteTo

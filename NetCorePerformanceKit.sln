@@ -12,8 +12,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "core\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "core\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{32ABC116-D94A-4165-B552-E793885839A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "core\Core.Persistence\Core.Persistence.csproj", "{7F8498EC-E097-415B-97EA-45190B95AC8E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B860554C-F774-450D-B5C3-672C6889F40E}"
 EndProject
 Global
@@ -42,10 +40,6 @@ Global
 		{32ABC116-D94A-4165-B552-E793885839A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32ABC116-D94A-4165-B552-E793885839A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32ABC116-D94A-4165-B552-E793885839A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F8498EC-E097-415B-97EA-45190B95AC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F8498EC-E097-415B-97EA-45190B95AC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F8498EC-E097-415B-97EA-45190B95AC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F8498EC-E097-415B-97EA-45190B95AC8E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B860554C-F774-450D-B5C3-672C6889F40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B860554C-F774-450D-B5C3-672C6889F40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B860554C-F774-450D-B5C3-672C6889F40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,6 +48,5 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D50F69D0-9A8B-448C-BB5A-86E9189B3994} = {55E73EC7-FA82-4074-9B39-60BF6E2D5AB9}
 		{32ABC116-D94A-4165-B552-E793885839A8} = {55E73EC7-FA82-4074-9B39-60BF6E2D5AB9}
-		{7F8498EC-E097-415B-97EA-45190B95AC8E} = {55E73EC7-FA82-4074-9B39-60BF6E2D5AB9}
 	EndGlobalSection
 EndGlobal

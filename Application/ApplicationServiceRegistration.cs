@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using Application.Services.CategoryServices;
 using Application.Services.ProductServices;
 using Core.Application.Caching;
 using Core.Application.Logging;
@@ -24,19 +23,16 @@ public static class ApplicationServiceRegistration
         // Registering MediatR with open behaviors
         services.AddMediatR(configuration =>
         {
-            configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
-            configuration.AddOpenBehavior(typeof(CachingBehavior<,>));
+            configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());   
+            configuration.AddOpenBehavior(typeof(CacheBehavior<,>));  
             configuration.AddOpenBehavior(typeof(CacheRemovingBehavior<,>));
             configuration.AddOpenBehavior(typeof(LoggingBehavior<,>));
         });
 
-        // Registering application services
-        services.AddScoped<IProductService, ProductManager>();
-        services.AddScoped<ICategoryService, CategoryManager>();
-        
         // Registering logger service
-        // services.AddSingleton<LoggerServiceBase, FileLogger>();
-        services.AddSingleton<LoggerServiceBase, MsSqlLogger>();
+        services.AddSingleton<LoggerServiceBase, FileLogger>();
+
+        services.AddScoped<IProductService, ProductService>();
 
         return services;
     }

@@ -1,6 +1,4 @@
-﻿using Core.Persistence.Repositories;
-
-namespace Domain;
+﻿namespace Domain;
 
 public class Product(int categoryId, string name) : Entity
 {

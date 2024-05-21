@@ -1,21 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PTAIIQ6EiHozzKH9Sh9ZRy/i/uV1h45fQkmbvpFSTRIMWGczl16ixKLt52qe6sbjBTFtWA+F6Xx6/uPNbvITaQ==",
+  "dgSpecHash": "lJphIZfGNSX1op37Zu4GtYoE+JyuT7cGjxo6PsLkKBXA1XOg/wvmEnz8qEDA1woXS0v4cHaa2Zc3IYYK6RJ6nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.5\\microsoft.entityframeworkcore.analyzers.8.0.5.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\malpy\\.nuget\\packages\\system.linq.dynamic.core\\1.3.14\\system.linq.dynamic.core.1.3.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

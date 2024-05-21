@@ -22,7 +22,7 @@ public class EfRepositoryBase<TEntity, TContext> : IAsyncRepository<TEntity>, IR
         return await DbContext.Set<TEntity>().FirstOrDefaultAsync(predicate);
     }
 
-    public async Task<IPaginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null,
+    public async Task<List<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null,
                                                        Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy =
                                                            null,
                                                        Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>?
@@ -35,7 +35,7 @@ public class EfRepositoryBase<TEntity, TContext> : IAsyncRepository<TEntity>, IR
         if (include != null) queryable = include(queryable);
         if (predicate != null) queryable = queryable.Where(predicate);
         if (orderBy != null)
-            return await orderBy(queryable).ToPaginateAsync(index, size, 0, cancellationToken);
+            return await orderBy(queryable);
         return await queryable.ToPaginateAsync(index, size, 0, cancellationToken);
     }
 

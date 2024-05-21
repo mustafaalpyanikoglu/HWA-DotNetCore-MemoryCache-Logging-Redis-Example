@@ -1,4 +1,5 @@
-﻿using Core.CrossCuttingConcerns.Exceptions.Handlers;
+﻿using System.Net.Mime;
+using Core.CrossCuttingConcerns.Exceptions.Handlers;
 using Core.CrossCuttingConcerns.Logging;
 using Core.CrossCuttingConcerns.Logging.Serilog;
 using Microsoft.AspNetCore.Http;
@@ -49,7 +50,7 @@ namespace Core.CrossCuttingConcerns.Exceptions
 
         private Task HandleExceptionAsync(HttpResponse response, Exception exception)
         {
-            response.ContentType = "application/json";
+            response.ContentType = MediaTypeNames.Application.Json;
             _httpExceptionHandler.Response = response;
             return _httpExceptionHandler.HandleExceptionAsync(exception);
         }
@@ -57,14 +58,12 @@ namespace Core.CrossCuttingConcerns.Exceptions
         private Task LogException(HttpContext context, Exception exception)
         {
             List<LogParameter> logParameters =
-                new()
-                {
+                new() {
                     new LogParameter { Type = context.GetType().Name, Value = exception.ToString() }
                 };
 
             LogDetail logDetail =
-                new()
-                {
+                new() {
                     MethodName = _next.Method.Name,
                     Parameters = logParameters,
                     User = _contextAccessor.HttpContext?.User.Identity?.Name ?? "?"

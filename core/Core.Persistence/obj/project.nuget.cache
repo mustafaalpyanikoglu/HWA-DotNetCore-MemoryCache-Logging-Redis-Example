@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5beV548c0+uJO2W72SxiaKdoT6NLgGStskmXcGulKR6akhrU8vpXdmTfD8YdNVO6QlmeBo0AgVZORlepBkGmSA==",
+  "dgSpecHash": "A9AJCBhvVZwjhFZCJ1sd7Li35tagKgpO4NeLVlTpdBeVWQSDimFANg2AnamEtKH6wCHV4rHXZHYZmy38o3C2hQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malpy\\Desktop\\Net-Core-Performance-Kit\\core\\Core.Persistence\\Core.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\malpy\\Desktop\\HWA\\Net-Core-Performance-Kit\\core\\Core.Persistence\\Core.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malpy\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
