@@ -26,10 +26,26 @@ Projede kullanılan ana klasörler ve dosyalar aşağıdaki gibidir:
   - **CrossCuttingConcerns**: Uygulamanın farklı katmanları arasında tekrar kullanılan kodları içerir.
     - **Exceptions**: Uygulama genelinde fırlatılan ve ele alınan istisna (exception) türlerini ve bunları işleyen kodları içerir.
     - **Logging**: Uygulamanın farklı bölümlerinden gelen log girişlerini işleyen kodları içerir.
+   - **Application**: Uygulamanın iş mantığına özgü ara katman davranışlarını içerir.
+     - **Caching**: Veri önbellekleme işlemlerini ve bu işlemleri yöneten kodları içerir.
+     - **Logging**: Uygulamanın loglama işlemlerini gerçekleştirmek için gerekli alt yapıyı ve konfigurasyon işlemlerini bulundurur.
 - **Application**: Uygulamanın iş mantığına özgü kodları içerir.
-  - **Caching**: Veri önbellekleme işlemlerini ve bu işlemleri yöneten kodları içerir.
-    > Bu projede, önbellekleme işlemleri `Core.Application.Caching` klasöründe yönetilir. Önbellekleme, MediatR kütüphanesini kullanarak yapılandırılmış bir pipeline behavior ile gerçekleştirilir. Önbellek davranışı, gelen isteklerin önbelleğe alınmasını, önbellekten veri okunmasını ve önbellekten veri kaldırılmasını sağlar. 
-  - **Logging**: Uygulamanın loglama işlemlerini gerçekleştirmek için gerekli alt yapıyı ve konfigurasyon işlemlerini bulundurur.
+- **Domain**: Uygulamada kullanılan veri tabanı modellerini içerir.
+- **Persistence**: Uygulamanın veri tabanı ile olan iletişimini sağlar.
+- **WebAPI**: Uygulamanın sunum katmanı.
+  
+## Ara Katman Sınıflarının Kullanımı
+
+### Cache Davranışları
+***CacheBehavior:*** MediatR pipeline'ındaki bir davranıştır. MediatR isteklerinin sonuçlarını önbelleğe alır ve gelecekteki benzer istekler için sonuçları hızlı bir şekilde döndürmek için kullanılır.
+
+***CacheRemovingBehavior:*** MediatR pipeline'ındaki bir davranıştır. Önceden önbelleğe alınmış sonuçları ve ilgili grupları temizler. Özellikle veri güncelleme işlemleri gerçekleştirildiğinde önbelleğin güncellenmesini sağlar.
+
+### Logging Davranışı
+***LoggingBehavior:*** MediatR pipeline'ındaki bir davranıştır. MediatR isteklerini ve yanıtlarını günlüğe kaydeder. Bu, uygulamanın çalışma sürecini izlemek, hataları bulmak ve performansı değerlendirmek için kullanılır.
+İstisna İşleme ve Kayıt
+***ExceptionMiddleware:*** ASP.NET Core pipeline'ındaki bir ara katman olarak kullanılır. HTTP istek işleme sırasında oluşan istisnaları ele alır, kullanıcıya uygun bir hata mesajı döndürür ve hataları kaydeder. Bu, uygulamanın güvenilirliğini artırır ve hata ayıklama sürecini kolaylaştırır.
+Bu sınıflar, uygulamanın performansını, güvenilirliğini ve bakımını artırmak için kullanılmaktadır.
 
 ## Kullanılan Paketler
 
