@@ -36,3 +36,16 @@ C:\Users\malpy\Desktop\HWA\Net-Core-Performance-Kit\core\Core.CrossCuttingConcer
 C:\Users\malpy\Desktop\HWA\Net-Core-Performance-Kit\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\refint\Core.CrossCuttingConcerns.dll
 C:\Users\malpy\Desktop\HWA\Net-Core-Performance-Kit\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.pdb
 C:\Users\malpy\Desktop\HWA\Net-Core-Performance-Kit\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\ref\Core.CrossCuttingConcerns.dll
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\bin\Debug\net8.0\Core.CrossCuttingConcerns.deps.json
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.csproj.AssemblyReference.cache
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.AssemblyInfo.cs
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.sourcelink.json
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\refint\Core.CrossCuttingConcerns.dll
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.pdb
+C:\Users\malpy\Desktop\HWA\HWA-NetCore-MemoryCache-And-Logging\core\Core.CrossCuttingConcerns\obj\Debug\net8.0\ref\Core.CrossCuttingConcerns.dll

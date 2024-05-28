@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj": {}
+    "C:\\Users\\malpy\\Desktop\\HWA\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj": {
+    "C:\\Users\\malpy\\Desktop\\HWA\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\malpy\\Desktop\\HWA\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\malpy\\Desktop\\HWA\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\malpy\\Desktop\\HWA\\HWA-NetCore-MemoryCache-And-Logging\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config"
