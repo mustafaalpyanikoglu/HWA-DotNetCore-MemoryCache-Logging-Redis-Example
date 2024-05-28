@@ -20,11 +20,13 @@ public static class ApplicationServiceRegistration
     /// <returns>The collection of service descriptors.</returns>
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
+        services.AddAutoMapper(Assembly.GetExecutingAssembly());
+        
         // Registering MediatR with open behaviors
         services.AddMediatR(configuration =>
         {
-            configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());   
-            configuration.AddOpenBehavior(typeof(CacheBehavior<,>));  
+            configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+            configuration.AddOpenBehavior(typeof(DistributedCacheBehavior<,>));
             configuration.AddOpenBehavior(typeof(CacheRemovingBehavior<,>));
             configuration.AddOpenBehavior(typeof(LoggingBehavior<,>));
         });

@@ -10,22 +10,22 @@ namespace Core.Application.Caching;
 /// </summary>
 /// <typeparam name="TRequest">The type of the request.</typeparam>
 /// <typeparam name="TResponse">The type of the response.</typeparam>
-public class CacheBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+public class MemoryCacheBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>, ICachableRequest
 {
     private readonly IMemoryCache _memoryCache;
     private readonly CacheSettings _cacheSettings;
-    private readonly ILogger<CacheBehavior<TRequest, TResponse>> _logger;
+    private readonly ILogger<MemoryCacheBehavior<TRequest, TResponse>> _logger;
 
     /// <summary>
-    /// Initializes a new instance of the <see cref="CacheBehavior{TRequest,TResponse}"/> class.
+    /// Initializes a new instance of the <see cref="MemoryCacheBehavior{TRequest,TResponse}"/> class.
     /// </summary>
     /// <param name="memoryCache">The memory cache instance.</param>
     /// <param name="logger">The logger instance.</param>
     /// <param name="configuration">The configuration instance.</param>
-    public CacheBehavior(
+    public MemoryCacheBehavior(
         IMemoryCache memoryCache,
-        ILogger<CacheBehavior<TRequest, TResponse>> logger,
+        ILogger<MemoryCacheBehavior<TRequest, TResponse>> logger,
         IConfiguration configuration)
     {
         _memoryCache = memoryCache;
